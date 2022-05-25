@@ -1056,7 +1056,7 @@ a {
     justify-content: flex-start;
   }
   .cid-sQgGki0ndq .content-wrap {
-    width: 46%;
+    width: 51%;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
@@ -1080,33 +1080,138 @@ a {
 .cid-sQgGki0ndq .mbr-section-title {
   text-align: left;
 }
-.cid-sQgNbtjtUC {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.cid-t6MkxjdV2g {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-color: #353535;
 }
+.cid-t6MkxjdV2g img,
+.cid-t6MkxjdV2g .item-img {
+  width: 100%;
+}
+.cid-t6MkxjdV2g .item:focus,
+.cid-t6MkxjdV2g span:focus {
+  outline: none;
+}
+.cid-t6MkxjdV2g .item-wrapper {
+  position: relative;
+}
+.cid-t6MkxjdV2g .slide-content {
+  position: relative;
+  border-radius: 4px;
+  background: #fafafa;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-flow: column nowrap;
+}
 @media (min-width: 992px) {
-  .cid-sQgNbtjtUC .text-wrapper {
+  .cid-t6MkxjdV2g .slide-content .item-content {
     padding: 2rem;
   }
 }
-.cid-sQgNbtjtUC .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
-}
-@media (max-width: 767px) {
-  .cid-sQgNbtjtUC .image-wrapper {
-    margin-bottom: 2rem;
+@media (max-width: 991px) {
+  .cid-t6MkxjdV2g .slide-content .item-content {
+    padding: 1rem;
   }
 }
-.cid-sQgNbtjtUC .mbr-text {
+.cid-t6MkxjdV2g .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-t6MkxjdV2g .mbr-section-title {
   color: #ffffff;
 }
-.cid-sQgNbtjtUC .name {
-  color: #fafafa;
+.cid-t6MkxjdV2g .mbr-text,
+.cid-t6MkxjdV2g .mbr-section-btn {
+  text-align: left;
 }
-.cid-sQgNbtjtUC .mbr-section-title {
-  color: #ffffff;
+.cid-t6MkxjdV2g .item-title {
+  text-align: left;
+}
+.cid-t6MkxjdV2g .item-subtitle {
+  text-align: left;
+}
+.cid-t6MkxjdV2g .embla__slide {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 410px;
+  max-width: 410px;
+}
+@media (max-width: 768px) {
+  .cid-t6MkxjdV2g .embla__slide {
+    min-width: 70%;
+    max-width: initial;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+}
+.cid-t6MkxjdV2g .embla__button--next,
+.cid-t6MkxjdV2g .embla__button--prev {
+  display: flex;
+}
+.cid-t6MkxjdV2g .embla__button {
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -1.5rem;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .cid-t6MkxjdV2g .embla__button {
+    display: none;
+  }
+}
+.cid-t6MkxjdV2g .embla__button:disabled {
+  cursor: default;
+  display: none;
+}
+.cid-t6MkxjdV2g .embla__button:hover {
+  background: #000;
+  color: rgba(255, 255, 255, 0.5);
+}
+.cid-t6MkxjdV2g .embla__button.embla__button--prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-t6MkxjdV2g .embla__button.embla__button--next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+@media (max-width: 767px) {
+  .cid-t6MkxjdV2g .embla__button {
+    top: auto;
+  }
+}
+.cid-t6MkxjdV2g .embla {
+  position: relative;
+  width: 100%;
+}
+.cid-t6MkxjdV2g .embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+.cid-t6MkxjdV2g .embla__viewport.is-draggable {
+  cursor: grab;
+}
+.cid-t6MkxjdV2g .embla__viewport.is-dragging {
+  cursor: grabbing;
+}
+.cid-t6MkxjdV2g .embla__container {
+  display: flex;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .cid-sQgJNyAB52 {
   padding-top: 6rem;
@@ -1192,6 +1297,34 @@ a {
 }
 .cid-sUqDKAz5Xq .mbr-text,
 .cid-sUqDKAz5Xq .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-sQgNbtjtUC {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #353535;
+}
+@media (min-width: 992px) {
+  .cid-sQgNbtjtUC .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sQgNbtjtUC .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .cid-sQgNbtjtUC .image-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+.cid-sQgNbtjtUC .mbr-text {
+  color: #ffffff;
+}
+.cid-sQgNbtjtUC .name {
+  color: #fafafa;
+}
+.cid-sQgNbtjtUC .mbr-section-title {
   color: #ffffff;
 }
 .cid-sQgQIIUpzk {
