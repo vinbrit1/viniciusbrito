@@ -10,7 +10,7 @@ body {
   font-size: 5.75rem;
 }
 .display-2 {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.1;
 }
@@ -1109,7 +1109,7 @@ a {
   color: #ffffff;
 }
 .cid-t9oSAsiIRc {
-  padding-top: 6rem;
+  padding-top: 2rem;
   padding-bottom: 6rem;
   background-color: #353535;
 }
@@ -1158,7 +1158,7 @@ a {
 }
 .cid-t9oSAsiIRc .item-subtitle {
   text-align: left;
-  color: #bbbbbb;
+  color: #000000;
 }
 .cid-t9oSAsiIRc .embla__slide {
   display: flex;
@@ -1737,6 +1737,43 @@ a {
   .cid-sQGfqhdn9p form .mbr-section-btn .btn {
     width: 100%;
   }
+}
+.cid-t9pBY9eh23 {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  background-color: #000000;
+}
+.cid-t9pBY9eh23 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-t9pBY9eh23 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (min-width: 992px) {
+  .cid-t9pBY9eh23 .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-t9pBY9eh23 .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .cid-t9pBY9eh23 .image-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+.cid-t9pBY9eh23 .mbr-text {
+  color: #fafafa;
+}
+.cid-t9pBY9eh23 .name {
+  color: #fafafa;
 }
 .cid-sQh4Mkj6Tg {
   padding-top: 5rem;
